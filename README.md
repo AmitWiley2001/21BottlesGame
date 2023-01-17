@@ -69,35 +69,35 @@ then they are the Loser and would have to pay the bill.
 
 ## Step1: Make sure you have Required Tools:
 
-                Java 17 version installed with JAVA_HOME Path Variable
+           Java 17 version installed with JAVA_HOME Path Variable
 
-                VS Code IDE with Required Plugins for Java, GIT.
+           VS Code IDE with Required Plugins for Java, GIT.
 
-                Git
+           Git
 
 ## Step2: Accessing GITHUB Classroom and submiting Assignment:
 
-                  Get the Link for GITHUB Classroom.
+             Get the Link for GITHUB Classroom.
 
-                  Click and Authorize from your GITHUB account.
+             Click and Authorize from your GITHUB account.
 
-                  Clone the Repository / open through VSCODE IDE.
+             Clone the Repository / open through VSCODE IDE.
 
-                  Open Beer-bottles-game --> src --> main --> Java Files to complete code.
+             Open Beer-bottles-game --> src --> main --> Java Files to complete code.
 
-                  Solve the Problem Statements through code as detailed in Step 3 below.
+             Solve the Problem Statements through code as detailed in Step 3 below.
 
-                  Commit the changes to the repositories, 
-                  labelling each commit numerically (Commit1, Commit2, etc.).
+             Commit the changes to the repositories, 
+             labelling each commit numerically (Commit1, Commit2, etc.).
 
-                  Each commit will be tested automatically against the relevant testcases, 
-                  so you may need to submit several commits as you refine your solution.
+             Each commit will be tested automatically against the relevant testcases, 
+             so you may need to submit several commits as you refine your solution.
 
-                  Once you are finished with the assignment (either all test cases passed or not), 
-                  make sure to lable this commit as "final commit" 
-                  (this may mean a previous commit passing and 
-                  you making a slight edit to the latter in order to mark 
-                  the next commit as being final).
+             Once you are finished with the assignment (either all test cases passed or not), 
+             make sure to lable this commit as "final commit" 
+             (this may mean a previous commit passing and 
+             you making a slight edit to the latter in order to mark 
+             the next commit as being final).
 
 ## Step3: Solving the Problem:
 
