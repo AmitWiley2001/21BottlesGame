@@ -4,6 +4,22 @@ import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
 
+	/*
+	PLEASE INSERT YOUR CODE STRICTLY BETWEEN BELOW COMMENTED LINES
+	YOUR CODE STARTS HERE
+	YOUR CODE ENDS HERE
+	AS TEST CASES ARE EXECUTED USING AUTOMATION TECHNIQUE, REQUEST TO
+	STRICTLY FOLLOW BELOW MENTIONED RULES
+	1. THE REST OF THE CODE PROVIDED TO YOU SHOULD BE KEPT STRICTLY UNTOUCHED.
+	2. YOUR OWN CODE WOULD COME ONLY INSIDE ABOVE MENTIONED PAIR OF COMMENTS.
+	3. THE CLASS NAMES, INTERFACE NAMES, METHOD SIGNATURES AND ATTRIBUTE NAMES SHOULD
+	   NOT BE ALTERED OR MODIFIED AND KEPT STRICTLY UNTOUCHED.
+	4. PLEASE FOLLOW STANDARD JAVA NAMING CONVENTIONS FOR THE PIECE OF CODE YOU
+	   ARE GOING TO PROVIDE INSIDE THE COMMENTS 'YOUR CODE STARTS HERE' AND 'YOUR CODE ENDS HERE'
+	*/
+	//YOUR CODE STARTS HERE
+
+	//YOUR CODE ENDS HERE
 public class BeerBottles21 {
 	
 	 private Scanner scanner;
@@ -18,7 +34,6 @@ public class BeerBottles21 {
 	      this.scanner = new Scanner(inputStream);
 	      this.printStream = printStream;
 	 }
-	
 	 
 	 public int isInputNumberValid()  {
 		 
@@ -30,42 +45,22 @@ public class BeerBottles21 {
 			//   "As per the Game Rules, please pick up bottles between 1 and 4 only, both inclusive".
 			//   and return back -1
 			 
-			//Write code here - begin
-				try {
-					int num = this.scanner.nextInt();
-					
-					if(num >= 1 && num <= 4) {
-						return num;
-					 }
-					else {
-						//throw new InputMismatchException();
-						this.printStream.print("As per the Game Rules, please pick up bottles between 1 and 4 only, both inclusive");
-					}
-					
-				}catch(Exception e) {
-					//throw new InputMismatchException();
-					this.printStream.print("As per the Game Rules, please pick up bottles between 1 and 4 only, both inclusive");
-				}
-				return -1;
-			//Write code here - end			
+			//YOUR CODE STARTS HERE
+                        return -1;
+	                //YOUR CODE ENDS HERE	
 	 }
  
 	 
 	public int pickAfterUser(int pick1) {
-		//Write code here - begin 
-		return 5-pick1;
-		//Write code here - end
+			//YOUR CODE STARTS HERE
+                        return -1;
+	                //YOUR CODE ENDS HERE
 	}
 	 
 	 
 	public void startGamePlayer1() {
 		int remaining = 21;
 		
-		/*if(player1.equals("computer")) {
-			Random rn = new Random();
-			initialpick = rn.nextInt(4) + 1;
-			System.out.println("The computer has picked "+initialpick);
-		}*/
 		while(remaining > 1) {
 			
 			
@@ -92,12 +87,7 @@ public class BeerBottles21 {
 	public void printGameRules() {
 		//To print on console, use this.printStream.print() and NOT the System.out.println()
 		//and using the this.printStream.print(), print below contents on console exactly as below
-		/*
-		 System.out.println("There are 21 beer bottles");
-		 System.out.println("Computer and yourself, there are 2 players");
-		 System.out.println("At a time, each one can pick up any no. of bottles between 1 and 4 (inclusive)");
-		 System.out.println("Please play first");
-		 */
+		
 		this.printStream.print("There are 21 beer bottles\n");
 		this.printStream.print("Computer and yourself, there are 2 players\n");
 		this.printStream.print("At a time, each one can pick up any no. of bottles between 1 and 4 (inclusive)\n");
