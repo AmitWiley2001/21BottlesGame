@@ -1,8 +1,8 @@
 # W2_Java_Assignment1_Question
 
-##Problem Statement:
+## Problem Statement:
 
-###21 Beer Bottles Game
+### 21 Beer Bottles Game
 
   1.	In this game, there are 21 Beer bottles at the start.
   2.	There are 2 players: 
