@@ -1,8 +1,8 @@
-Problem: 21 Beer Bottles Game
+Problem: 21 Water Bottles Game
 
-In this game, there are 21 Beer bottles at the start.
+In this game, there are 21 Water bottles at the start.
 There are 2 players: a. You – Choice decided by input. b. Computer – Choice decided by algorithm.
-Each turn involves a player picking up between 1 and 4 Beer bottles inclusively.
+Each turn involves a player picking up between 1 and 4 Water bottles inclusively.
 Whoever picks up the last bottle (21st bottle), is the loser and will have to pay the bill.
 Design and implement a game, making use of an Artificially Intelligent algorithm, so that if user is playing first, 
 the Computer would pick up the bottles intelligently each time.
@@ -10,7 +10,7 @@ the Computer would pick up the bottles intelligently each time.
 “The Computer should always win.”
 The following message will appear at the start of the game.
 
-There are 21 beer bottles...
+There are 21 Water bottles...
 There are 2 players - Computer and you.
 At a time, each one can pick up any no. of bottles between 1 and 4 (inclusive)
 Will you like to play first?
