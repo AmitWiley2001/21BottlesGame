@@ -1,5 +1,12 @@
 Problem: 21 Water Bottles Game
 
+Learning Objectives 
+ - Loops (While / Do While)
+ - If ... else Decision construct
+ - Random Number Generation
+ - Use of Scanner
+ - Algorithm Formulation 
+
 In this game, there are 21 Water bottles at the start.
 There are 2 players: a. You – Choice decided by input. b. Computer – Choice decided by algorithm.
 Each turn involves a player picking up between 1 and 4 Water bottles inclusively.
@@ -42,7 +49,7 @@ The bottles remaining are: 6
 How many you would like to pick up? 
 4
 Computer has picked 1
-As per this artificially intelligent program, the Computer should always win. Once the User is compelled to pick up the last beer bottle, 
+As per this artificially intelligent program, the Computer should always win. Once the User is compelled to pick up the last Water bottle, 
 then they are the Loser and would have to pay the bill.
 
 Computer has picked 1
