@@ -1,14 +1,21 @@
 # W2_Java_Assignment1_Question
 
+## Learning Objectives
+  - Loops (While / Do While)
+  - If ... else Decision construct
+  - Random Number Generation
+  - Use of Scanner
+  - Algorithm Formulation 
+
 ## Problem Statement:
 
-### 21 Beer Bottles Game
+### 21 Water Bottles Game
 
-  1.	In this game, there are 21 Beer bottles at the start.
+  1.	In this game, there are 21 Water bottles at the start.
   2.	There are 2 players: 
       a.	You – Choice decided by input.
       b.	Computer – Choice decided by algorithm. 
-  3.	Each turn involves a player picking up between 1 and 4 Beer bottles inclusively.
+  3.	Each turn involves a player picking up between 1 and 4 Water bottles inclusively.
   4.	Whoever picks up the last bottle (21st bottle), is the loser and will have to pay the bill.
   
 Design and implement a game, making use of an Artificially Intelligent algorithm, so that if user is playing first, the Computer would pick up the bottles intelligently each time. 
@@ -17,15 +24,13 @@ Design and implement a game, making use of an Artificially Intelligent algorithm
     
 The following message will appear at the start of the game.
 
-    There are 21 beer bottles...
+    There are 21 Water bottles...
     There are 2 players - Computer and you.
     At a time, each one can pick up any no. of bottles between 1 and 4 (inclusive)
     Will you like to play first?
     
 If the User types ‘Yes’ and presses ‘Enter’ key, the next lines of output would be
 
-    Will you like to play first? 
-    Yes
     How many you would like to pick up?
 
 If you pick up 3 bottles initially and press ‘Enter’, 
@@ -56,7 +61,7 @@ The no. of remaining bottles will decrease after each round.
     Computer has picked 1
 
 As per this artificially intelligent program, the Computer should always win. 
-Once the User is compelled to pick up the last beer bottle, 
+Once the User is compelled to pick up the last Water bottle, 
 then they are the Loser and would have to pay the bill.
 
     Computer has picked 1
@@ -83,7 +88,7 @@ then they are the Loser and would have to pay the bill.
 
              Clone the Repository / open through VSCODE IDE.
 
-             Open Beer-bottles-game --> src --> main --> Java Files to complete code.
+             Open Water-bottles-game --> src --> main --> Java Files to complete code.
 
              Solve the Problem Statements through code as detailed in Step 3 below.
 
@@ -135,4 +140,5 @@ then they are the Loser and would have to pay the bill.
     //YOUR CODE ENDS HERE
     
     
-Note: Every Assignment is being tested with Automation Technique. So Please do follow the points mentioned in comments of Java Code.
+Note: Every Assignment is being tested with Automation Technique. 
+So Please do follow the points mentioned in comments of Java Code.
