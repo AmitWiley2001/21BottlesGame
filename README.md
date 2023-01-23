@@ -141,4 +141,4 @@ then they are the Loser and would have to pay the bill.
     
     
 Note: Every Assignment is being tested with Automation Technique. 
-So Please do follow the points mentioned in comments of Java Code.
+So please do follow the points mentioned in comments of Java Code.
