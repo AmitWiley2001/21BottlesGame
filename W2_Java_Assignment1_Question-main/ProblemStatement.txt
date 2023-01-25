@@ -1,0 +1,57 @@
+Problem: 21 Water Bottles Game
+
+Learning Objectives 
+ - Loops (While / Do While)
+ - If ... else Decision construct
+ - Random Number Generation
+ - Use of Scanner
+ - Algorithm Formulation 
+
+In this game, there are 21 Water bottles at the start.
+There are 2 players: a. You – Choice decided by input. b. Computer – Choice decided by algorithm.
+Each turn involves a player picking up between 1 and 4 Water bottles inclusively.
+Whoever picks up the last bottle (21st bottle), is the loser and will have to pay the bill.
+Design and implement a game, making use of an Artificially Intelligent algorithm, so that if user is playing first, 
+the Computer would pick up the bottles intelligently each time.
+
+“The Computer should always win.”
+The following message will appear at the start of the game.
+
+There are 21 Water bottles...
+There are 2 players - Computer and you.
+At a time, each one can pick up any no. of bottles between 1 and 4 (inclusive)
+Will you like to play first?
+If the User types ‘Yes’ and presses ‘Enter’ key, the next lines of output would be
+
+Will you like to play first? 
+Yes
+How many you would like to pick up?
+If you pick up 3 bottles initially and press ‘Enter’, the intelligent algorithm will decide how many bottles will be selected by the Computer.
+
+For example, the next set of output could be.
+
+How many you would like to pick up? 
+3
+Computer has picked 2
+The bottles remaining are: 16
+How many you would like to pick up?
+The User must be able to continue the game with Computer, and at every step the remaining bottles need to be displayed appropriately. 
+The no. of remaining bottles will decrease after each round.
+
+How many you would like to pick up? 
+2
+Computer has picked 3
+The bottles remaining are: 11
+How many you would like to pick up? 
+3
+Computer has picked 2
+The bottles remaining are: 6
+How many you would like to pick up? 
+4
+Computer has picked 1
+As per this artificially intelligent program, the Computer should always win. Once the User is compelled to pick up the last Water bottle, 
+then they are the Loser and would have to pay the bill.
+
+Computer has picked 1
+The bottles remaining are : 1
+You will have to pick up the last..you are loser
