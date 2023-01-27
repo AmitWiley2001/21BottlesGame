@@ -13,12 +13,12 @@ import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
 
 @TestInstance(Lifecycle.PER_CLASS)
-@DisplayName("21 water Bottle Assignment")
-public class TestwaterBottles21 {
+@DisplayName("21 Water Bottle Assignment")
+public class TestWaterBottles21 {
 	
 	private ByteArrayInputStream inputStream = null;
 	private ByteArrayOutputStream byteArrayOutputStream = null;
-	private waterBottles21 bb;
+	private WaterBottles21 bb;
 	
 	@BeforeEach
 	public void doInit() {
@@ -34,10 +34,10 @@ public class TestwaterBottles21 {
 	@DisplayName("Check whether input is valid for -ve")
 	public void testIsInputValidForNegative() {
 		 
-		inputStream = new ByteArrayInputStream("-5".getBytes());
+	    inputStream = new ByteArrayInputStream("-5".getBytes());
 	    byteArrayOutputStream = new ByteArrayOutputStream();
 	    PrintStream ps = new PrintStream(byteArrayOutputStream);
-	    bb = new waterBottles21(inputStream, ps);
+	    bb = new WaterBottles21(inputStream, ps);
 		
 		//testGetTheInputNumber();
 	    int n = bb.isInputNumberValid();
@@ -57,7 +57,7 @@ public class TestwaterBottles21 {
 		inputStream = new ByteArrayInputStream("5".getBytes());
 	    byteArrayOutputStream = new ByteArrayOutputStream();
 	    PrintStream ps = new PrintStream(byteArrayOutputStream);
-	    bb = new waterBottles21(inputStream, ps);
+	    bb = new WaterBottles21(inputStream, ps);
 		
 		//testGetTheInputNumber();
 	    int n = bb.isInputNumberValid();
@@ -77,7 +77,7 @@ public class TestwaterBottles21 {
 		inputStream = new ByteArrayInputStream("abc".getBytes());
 	    byteArrayOutputStream = new ByteArrayOutputStream();
 	    PrintStream ps = new PrintStream(byteArrayOutputStream);
-	    bb = new waterBottles21(inputStream, ps);
+	    bb = new WaterBottles21(inputStream, ps);
 		
 		//testGetTheInputNumber();
 	    int n = bb.isInputNumberValid();
@@ -97,7 +97,7 @@ public class TestwaterBottles21 {
 		inputStream = new ByteArrayInputStream(Integer.toString(userPick).getBytes());
 	    byteArrayOutputStream = new ByteArrayOutputStream();
 	    PrintStream ps = new PrintStream(byteArrayOutputStream);
-	    bb = new waterBottles21(inputStream, ps);
+	    bb = new WaterBottles21(inputStream, ps);
 			
 	    int computerPick = bb.pickAfterUser(userPick);
 	   
@@ -112,7 +112,7 @@ public class TestwaterBottles21 {
 		inputStream = new ByteArrayInputStream(Integer.toString(userPick).getBytes());
 	    byteArrayOutputStream = new ByteArrayOutputStream();
 	    PrintStream ps = new PrintStream(byteArrayOutputStream);
-	    bb = new waterBottles21(inputStream, ps);
+	    bb = new WaterBottles21(inputStream, ps);
 			
 	    int n = bb.pickAfterUser(userPick);
 	   
@@ -128,12 +128,12 @@ public class TestwaterBottles21 {
 		inputStream = new ByteArrayInputStream("1".getBytes());
 	    byteArrayOutputStream = new ByteArrayOutputStream();
 	    PrintStream ps = new PrintStream(byteArrayOutputStream);
-	    bb = new waterBottles21(inputStream, ps);	
+	    bb = new WaterBottles21(inputStream, ps);	
 		//testGetTheInputNumber();
 	    bb.printGameRules();
 	    String outputText = byteArrayOutputStream.toString();
 	    String key = """
-	    		There are 21 water bottles
+	    		There are 21 Water bottles
 	    		Computer and yourself, there are 2 players
 	    		At a time, each one can pick up any no. of bottles between 1 and 4 (inclusive)
 	    		The one who will have to pick up the last is looser
