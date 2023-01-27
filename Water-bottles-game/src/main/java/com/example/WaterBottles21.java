@@ -18,7 +18,6 @@ import java.util.Scanner;
 	   ARE GOING TO PROVIDE INSIDE THE COMMENTS 'YOUR CODE STARTS HERE' AND 'YOUR CODE ENDS HERE'
 	*/
 	//YOUR CODE STARTS HERE
-
 	//YOUR CODE ENDS HERE
 public class WaterBottles21 {
 	
@@ -46,14 +45,31 @@ public class WaterBottles21 {
 			//   and return back -1
 			 
 			//YOUR CODE STARTS HERE
-                        return -1;
+		        try {
+					int num = this.scanner.nextInt();
+					
+					if(num >= 1 && num <= 4) {
+						return num;
+					 }
+					else {
+						//throw new InputMismatchException();
+						this.printStream.print("As per the Game Rules, please pick up bottles between 1 and 4 only, both inclusive");
+					}
+					
+				}catch(Exception e) {
+					//throw new InputMismatchException();
+					this.printStream.print("As per the Game Rules, please pick up bottles between 1 and 4 only, both inclusive");
+				}
+				return -1;
+                        //return -1;
 	                //YOUR CODE ENDS HERE	
 	 }
  
 	 
 	public int pickAfterUser(int pick1) {
 			//YOUR CODE STARTS HERE
-                        return -1;
+		        return 5-pick1;
+                        //return -1;
 	                //YOUR CODE ENDS HERE
 	}
 	 
