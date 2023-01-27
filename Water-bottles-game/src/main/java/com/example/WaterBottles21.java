@@ -20,7 +20,7 @@ import java.util.Scanner;
 	//YOUR CODE STARTS HERE
 
 	//YOUR CODE ENDS HERE
-public class waterBottles21 {
+public class WaterBottles21 {
 	
 	 private Scanner scanner;
 	 private PrintStream printStream;
@@ -30,7 +30,7 @@ public class waterBottles21 {
 	 static String player1;
 	 static String player2;
 	
-	 public waterBottles21(InputStream inputStream, PrintStream printStream) {
+	 public WaterBottles21(InputStream inputStream, PrintStream printStream) {
 	      this.scanner = new Scanner(inputStream);
 	      this.printStream = printStream;
 	 }
@@ -97,7 +97,7 @@ public class waterBottles21 {
 	
 	public static void main(String[] args) {
 				
-		waterBottles21 bb = new waterBottles21(System.in,System.out);
+		WaterBottles21 bb = new WaterBottles21(System.in,System.out);
 		bb.printGameRules();
 		
 		player1 = "you";
